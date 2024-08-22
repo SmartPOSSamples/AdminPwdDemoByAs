@@ -1,0 +1,88 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gradle/
+* .gradle/6.1.1/
+* .gradle/6.1.1/executionHistory/
+* .gradle/6.1.1/executionHistory/executionHistory.bin
+* .gradle/6.1.1/executionHistory/executionHistory.lock
+* .gradle/6.1.1/fileChanges/
+* .gradle/6.1.1/fileChanges/last-build.bin
+* .gradle/6.1.1/fileHashes/
+* .gradle/6.1.1/fileHashes/fileHashes.bin
+* .gradle/6.1.1/fileHashes/fileHashes.lock
+* .gradle/6.1.1/gc.properties
+* .gradle/buildOutputCleanup/
+* .gradle/buildOutputCleanup/buildOutputCleanup.lock
+* .gradle/buildOutputCleanup/cache.properties
+* .gradle/buildOutputCleanup/outputFiles.bin
+* .gradle/checksums/
+* .gradle/checksums/checksums.lock
+* .gradle/vcs-1/
+* .gradle/vcs-1/gc.properties
+* .idea/
+* .idea/$CACHE_FILE$
+* .idea/caches/
+* .idea/caches/build_file_checksums.ser
+* .idea/codeStyles/
+* .idea/codeStyles/Project.xml
+* .idea/gradle.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/modules/
+* .idea/modules/AdminPwdDemo.iml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* AdminPwdDemo.iml
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/com/wizarpos/wizarviewagentassistant/aidl/IModifyAdminPwdService.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/IModifyAdminPwdService.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
