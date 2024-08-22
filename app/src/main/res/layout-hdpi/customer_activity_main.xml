@@ -119,7 +119,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/bg_textview_shape"
-                android:hint="@string/logcat_output"
                 android:scrollbars="vertical"
                 android:textSize="18sp" />
         </LinearLayout>

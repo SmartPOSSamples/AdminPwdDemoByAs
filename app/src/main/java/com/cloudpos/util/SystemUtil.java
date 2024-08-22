@@ -84,12 +84,12 @@ public class SystemUtil {
             List<RunningAppProcessInfo> apps = activityManager.getRunningAppProcesses();
             for (RunningAppProcessInfo info : apps) {
                 if (info.pid == iPid) {
-                    Log.v(LOG_TAG, "pid 的包名" + info.processName);
+                    Log.v(LOG_TAG, "pid packageName is" + info.processName);
                     return info.processName;
                 }
             }
         } catch (Exception e) {
-            Log.v(LOG_TAG, "未能找到该" + pid + "对应的程序包名！");
+            Log.v(LOG_TAG, "could not find the " + pid + " packageName！");
         }
         return null;
     }
